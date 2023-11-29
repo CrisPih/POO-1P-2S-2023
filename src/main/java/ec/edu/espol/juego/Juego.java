@@ -3,13 +3,15 @@
  */
 
 package ec.edu.espol.juego;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 /**
  *
  * @author Marcito
  */
 public class Juego {
- private ArrayList<Ficha> lineaJuego;
+    private ArrayList<Ficha> lineaJuego;
     private ArrayList<Jugador> jugadores;
 
     public Juego() {
