@@ -3,10 +3,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package ec.edu.espol.juego;
+import java.util.ArrayList;
 
 /**
  *
- * @author crisp
+ * @author Marcito
  */
 public class Jugador {
     private String nombre;
