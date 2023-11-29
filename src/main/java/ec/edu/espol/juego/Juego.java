@@ -6,7 +6,7 @@ package ec.edu.espol.juego;
 
 /**
  *
- * @author crisp
+ * @author Marcito
  */
 public class Juego {
  private ArrayList<Ficha> lineaJuego;
