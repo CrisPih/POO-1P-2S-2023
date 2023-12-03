@@ -131,6 +131,36 @@ public class Juego {
     }
        
     public static void main(String[] args) {
-        System.out.println("Hello World!2");
+        Juego juego= new Juego();
+        Scanner sc= new Scanner (System.in);
+        System.out.println("Elija el modo de juego: ");
+        System.out.println("1. Jugador vs Jugador ");
+        System.out.println("Jugador vs Maquina");
+        int seleccion = scnextInt();
+        if(seleccion == 1){
+            System.out,println("Ingrese el nombre del jugador 1: ");
+            String jugador1 = sc.next();
+            System.out.println("Ingrese el nombre del jugador 2");
+            String jugador2= sc.next();
+            juego.agregarjugador(jugador1);
+            juego.agregarjugador(jugador2);
+            System.ou.println("Iniciemos con el juego!");
+
+            boolean manoJ1 = juego.manoValida(juego.getJugadores().get(0));     
+            boolean manoJ2 = juego.manoValida(juego.getJugadores().get(1));
+
+            boolean cantmanoJ1 = !juego.getJugadores().get(0).getMano().isEmpty();
+            boolean cantmanoJ2 = !juego.getJugadores().get(1).getMano().isEmpty();
+            
+            do {
+                System.out.println("Jugador: "+" "+jugador1+" "+"Mano :");
+                juego.getJugadores().get(0).imprimirMano();
+                juego.mostrarLínea();
+                manoJugador1= juego.manoValida
+
+
+                
+            }
+           
     }
 }
